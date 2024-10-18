@@ -21,15 +21,17 @@
   gap: 2rem;
 }
 .icon {
-  object-fit: cover;
+  /* object-fit: cover; */
   width: 100px;
   height: 100px;
 }
 .label {
   font-family: "Bruno Ace SC", sans-serif;
-  font-size: large;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
   font-weight: bold;
-  padding: 1rem;
 }
 .box {
   width: 30%;
@@ -43,4 +45,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+li {
+  line-height: 1.5rem;
 }
